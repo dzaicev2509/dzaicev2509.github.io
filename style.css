@@ -1,0 +1,58 @@
+.sidebar,
+.content,
+.footer
+{
+	border: 2px solid white;
+	background-color: white;
+}
+
+.all{
+	background-color: white;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}
+
+.content>div{
+	border: 2px solid white;
+}
+
+.content{
+	text-align: center;
+
+}
+
+body{
+	background-color: #ffc50029; 
+	margin: 0 auto;
+	width: 800px;
+}
+
+img{
+	width: 45%;
+	float: left;
+}
+
+.content p{
+	margin-left: 52%;
+}
+
+
+.sidebar {
+	float: left;
+	width: calc(20% - 2px);
+}
+
+.content {
+
+	padding-left: 5px;
+	margin-left: 20%;
+}
+
+.header{
+	margin: 0 auto;
+	width: 780px;
+	height: 5%;
+	font-size: 25pt;
+	text-align: center;
+}
+
