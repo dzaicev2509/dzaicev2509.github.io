@@ -2,7 +2,7 @@
 .content,
 .footer
 {
-	border: 2px solid white;
+	border: 2px solid black;
 	background-color: white;
 }
 
@@ -13,27 +13,27 @@
 }
 
 .content>div{
-	border: 2px solid white;
+	min-height: 280px; 
+	border: 2px solid black;
 }
 
 .content{
 	text-align: center;
-
 }
 
 body{
 	background-color: #ffc50029; 
 	margin: 0 auto;
-	width: 1000px;
+	width: 1200px;
 }
 
 img{
-	width: 45%;
+	height: 210px;
 	float: left;
 }
 
 .content p{
-	margin-left: 52%;
+	margin-left: 330px;
 }
 
 
