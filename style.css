@@ -14,38 +14,45 @@
 
 .content>div{
 	min-height: 280px; 
-	border: 2px solid black;
+	border: 2px solid white;
+	border-radius: 15px;
+	background-color: chocolate;
+	border:20px;
+
+}
+
+.content>div:hover{
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 .content{
 	text-align: center;
 	height: 1500px;
+	margin:15px 15px 15px calc(20% + 15px);
+	
 }
 
 body{
 	background-color: #ffc50029; 
-	margin: 0 20% 0 20%;
+	margin: 0 10% 0 10%;
 	}
 
 img{
 	height: 210px;
 	float: left;
+	border-radius: 6px;
+	margin: 7px;
 }
 
 .content p{
 	margin-left: 330px;
 }
 
-
 .sidebar {
 	float: left;
 	width: calc(20% - 2px);
-}
-
-.content {
-
-	padding-left: 5px;
-	margin-left: 20%;
 }
 
 .header{
