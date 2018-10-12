@@ -32,15 +32,14 @@
 	top:-3px;
 	left:-3px;
 }
-.content>div:hover img{
+/* .content>div:hover img{ 
 	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
-
+*/
 .content{
 	text-align: center;
 	height: 1500px;
 	margin:15px 15px 15px calc(20% + 15px);
-	
 }
 
 body{
