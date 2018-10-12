@@ -2,7 +2,7 @@
 .content,
 .footer
 {
-	border: 2px solid black;
+	border: 2px solid white;
 	background-color: white;
 }
 
@@ -16,9 +16,9 @@
 	min-height: 280px; 
 	border: 2px solid white;
 	border-radius: 15px;
-	background-color: darkgrey;
+	background-color: rgba(169, 169, 169, 0.493);
 	border: 20px;
-	transition: all 0.3s ease-out;
+	transition: all 0.25s ease-out;
 	position: relative;
 	top: 0px;
 	left: 0px;
@@ -52,7 +52,7 @@ img{
 	float: left;
 	border-radius: 6px;
 	margin: 7px;
-	transition: all 0.3s ease-out 0.3s; 
+	transition: all 0.25s ease-out; 
 	position: relative;
 	top: 0px;
 	left: 0px;
@@ -69,6 +69,16 @@ img:hover{
 
 .content p{
 	margin-left: 340px;
+	transition: all 0.25s ease-out; 
+	position: relative;
+	top: 0px;
+	left: 0px;
+}
+
+.content p:hover{
+	text-shadow: 4px 4px 7px rgba(7, 7, 7, 0.52);
+	top:-3px;
+	left:-3px;
 }
 
 .sidebar {
