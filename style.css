@@ -16,15 +16,24 @@
 	min-height: 280px; 
 	border: 2px solid white;
 	border-radius: 15px;
-	background-color: chocolate;
-	border:20px;
-
+	background-color: darkgrey;
+	border: 20px;
+	transition: all 0.3s ease-out;
+	position: relative;
+	top: 0px;
+	left: 0px;
 }
 
 .content>div:hover{
 	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	border-radius: 25px;
+	top:-3px;
+	left:-3px;
+}
+.content>div:hover img{
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 .content{
@@ -44,10 +53,23 @@ img{
 	float: left;
 	border-radius: 6px;
 	margin: 7px;
+	transition: all 0.3s ease-out 0.3s; 
+	position: relative;
+	top: 0px;
+	left: 0px;
+}
+
+img:hover{
+	border-radius: 15px;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	top:-3px;
+	left:-3px;
 }
 
 .content p{
-	margin-left: 330px;
+	margin-left: 340px;
 }
 
 .sidebar {
@@ -56,6 +78,8 @@ img{
 }
 
 .header{
+	z-index: 1;
+	background-color: white;
 	margin: 0 auto;
 	width: 780px;
 	height: 5%;
