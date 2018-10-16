@@ -10,7 +10,7 @@ table{
 }
 
 body{
-    margin: calc(50% - 300px) calc(50% - 125px) auto calc(50% - 125px);
+    margin: 20vh calc(50% - 125px);
 }
 
 .section-header{
@@ -24,6 +24,7 @@ table{
     width: 100%;
     background-color: bisque;
     padding: 8px;
+    border-spacing: 7px;
 }
 
 section{
@@ -32,10 +33,34 @@ section{
     border-radius: 12px;
     text-align: center;
     align-items: center;
+
+    -webkit-box-shadow: 13px 13px 13px 2px rgba(0,0,0,0.35);
+    -moz-box-shadow: 13px 13px 13px 2px rgba(0,0,0,0.35);
+    box-shadow: 13px 13px 13px 2px rgba(0,0,0,0.35);
 }
 
 td{
     border: 1px solid black;
     border-radius: 4px;
+    transition: all 0.25s ease-out;
+
+    -webkit-box-shadow: 4px 4px 3px 0px rgba(0,0,0,0.35);
+    -moz-box-shadow: 4px 4px 3px 0px rgba(0,0,0,0.35);
+    box-shadow: 4px 4px 3px 0px rgba(0,0,0,0.35);
+
+	position: relative;
+	top: 0px;
+	left: 0px;
 }
+
+td:hover{
+    -webkit-box-shadow: 8px 8px 6px 4px rgba(0,0,0,0.2);
+    -moz-box-shadow: 8px 8px 6px 4px rgba(0,0,0,0.2);
+    box-shadow: 8px 8px 6px 4px rgba(0,0,0,0.2);
+    top: -3px;
+    left: -3px;
+    background-color: gainsboro;
+}
+
+
 
