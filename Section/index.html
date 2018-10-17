@@ -9,20 +9,20 @@
 <body>
     <section>
         <div class="section-header">
-        <a href="../index.html">Назад</a>
+            <a href="../index.html">Назад</a>
             Header
         </div>
-            <table class="first-line">
-                <tr class="header">
-                    <td>a</td>
-                    <td>b</td>
-                    <td>c</td>
-                    <td>d</td>
-                </tr>
-            </table>
-            
-        
-        <table class="other-line">    
+        <table class="first-line">
+            <tr class="header">
+                <td>a</td>
+                <td>b</td>
+                <td>c</td>
+                <td>d</td>
+            </tr>
+        </table>
+
+
+        <table class="other-line">
             <tr>
                 <td>e</td>
                 <td>f</td>
@@ -43,6 +43,53 @@
                 <td>p</td>
             </tr>
         </table>
+    </section>
+    <section class="forms">
+        <form action="index.html" method="POST">
+            <div>
+                <label for="FirstName">First Name:</label>
+                <input id="FirstName" placeholder="Name" type="text" name="First Name" autofocus tabindex="1"/>
+            </div>
+            <div>
+                <label for="SecondName">Last Name:</label>
+                <input id="SecondName" placeholder="Password" type="text" name="Last Name" tabindex="2"/>
+            </div>
+            <div>
+                <label for="ReadOnly">Read Only:</label>
+                <input id="ReadOnly" placeholder="ReadOnly" type="text" name="ReadOnly" value="Read Onle label" tabindex="3" readonly/>
+            </div>
+            <div>
+                <button type="submit">Send</button>
+                <button type="reset">Reset</button>
+            </div>
+            <div>
+                <p>Radio:
+                    <input name="Radio" type="radio">
+                    <input name="Radio" type="radio">
+                    <input name="Radio" type="radio">
+                    <input name="Radio" type="radio">
+                    <input name="Radio" type="radio">
+                </p>
+            </div>
+            <div>
+                Range: <input name="Range" type="range">
+            </div>
+            <div>
+                <p>Check:
+                    <input name="Check" type="checkbox">
+                    <input name="Check" type="checkbox">
+                    <input name="Check" type="checkbox">
+                    <input name="Check" type="checkbox">
+                    <input name="Check" type="checkbox"></p>
+            </div>
+            <textarea>  </textarea>
+            <select>
+                Select:
+                <option value="1">First</option>
+                <option value="2">Second</option>
+                <option value="3">Thrid</option>
+            </select>
+        </form>
     </section>
 </body>
 
