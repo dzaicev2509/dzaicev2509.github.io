@@ -45,18 +45,19 @@
         </table>
     </section>
     <section class="forms">
-        <form action="index.html" method="POST">
+        <form action="index.html" method="GET">
             <div>
                 <label for="FirstName">First Name:</label>
-                <input id="FirstName" placeholder="Name" type="text" name="First Name" autofocus tabindex="1"/>
+                <input id="FirstName" placeholder="Name" type="text" name="First Name" autofocus tabindex="1" />
             </div>
             <div>
                 <label for="SecondName">Last Name:</label>
-                <input id="SecondName" placeholder="Password" type="password" name="Last Name" tabindex="2"/>
+                <input id="SecondName" placeholder="Password" type="password" name="Last Name" tabindex="2" />
             </div>
             <div>
                 <label for="ReadOnly">Read Only:</label>
-                <input id="ReadOnly" placeholder="ReadOnly" type="text" name="ReadOnly" value="Read Onle label" tabindex="3" readonly/>
+                <input id="ReadOnly" placeholder="ReadOnly" type="text" name="ReadOnly" value="Read Onle label"
+                    tabindex="3" readonly />
             </div>
             <div>
                 <button type="submit">Send</button>
@@ -89,6 +90,13 @@
                 <option value="2">Second</option>
                 <option value="3">Third</option>
             </select>
+            <div>
+                <label>
+                    Span checkbox:
+                    <input name="checkbox-span" type="checkbox" />
+                    <span class="checkbox"></span>
+                </label>
+            </div>
         </form>
     </section>
 </body>
