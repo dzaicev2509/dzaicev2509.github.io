@@ -1,3 +1,4 @@
+
 .section-header,
 table{
     text-align: center;
@@ -23,7 +24,7 @@ table{
 }
 
 section{
-    margin: 10%;
+    margin: 15px;
     width: 250px;
     border: 2px solid black;
     border-radius: 12px;
@@ -74,9 +75,10 @@ td:hover{
     align-items: right;
 }
 
-input[type=text]{
+input[type=text],
+input[type=password]{
     margin: 5px;
-    width: 130px;
+    width: 110px;
 }
 
 textarea{
