@@ -1,11 +1,27 @@
 .snake_s{
     background-color: black;
-    width: 60px;
-    height: 60px;
+    width: 30px;
+    height: 30px;
     position: absolute;
     transition: 0.1s linear;
     border-radius:40px;
 }
 
+body{
+    display:  flex;
+    width: 900px;
+    height: 900px;
+    background-color: bisque;
+    justify-content: center;
+}
 
+section{
+    top:120px;
+    position: fixed;
+}
 
+html{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
